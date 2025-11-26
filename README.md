@@ -9,7 +9,7 @@ Actualmente se ha implementado:
 
 ## Tecnologías
 - Backend: Java 25, Spring Boot, H2 Database
-- Herramientas: GitHub, IntelliJ/VS Code
+- Herramientas: GitHub, VS Code
 
 ## Cómo ejecutar
 1. Abrir el proyecto en tu IDE
