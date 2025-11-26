@@ -32,7 +32,7 @@ src/
 
 ## Funcionalidades Implementadas
 Actualmente, el proyecto soporta las siguientes características a nivel de backend y servicio:
-###Operaciones CRUD
+### Operaciones CRUD
 - Agregar productos (Crear)
 - Ver lista de productos (Leer)
 - Editar productos (Actualizar)
@@ -64,7 +64,7 @@ Sigue estos pasos para poner en marcha el proyecto localmente:
 
 Si tiene algún comentario, comuníquese conmigo a banegasyared27@gmail.com
 
-## Authors
+## Autores
 
 - [@yetzerdev](https://www.github.com/yetzerdev)
 
