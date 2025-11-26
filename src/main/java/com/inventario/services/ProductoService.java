@@ -17,7 +17,7 @@ public class ProductoService {
     }
 
     //Guardar un producto o actualizar si ya existe
-    public Producto saveOrUpdateProducto(Producto producto) {
+    public Producto guardaProducto(Producto producto) {
         return repository.save(producto);
     }
 
@@ -27,12 +27,12 @@ public class ProductoService {
     }
 
     //Buscar un producto por su ID
-    public Optional<Producto> getProductoById(Long id) {
+    public Optional<Producto> obtenerProducto(Long id) {
         return repository.findById(id);
     }
 
     //Eliminar un producto por su ID
-    public void deleteProducto(Long id) {
+    public void eliminarProducto(Long id) {
         repository.deleteById(id);
     }
 }
