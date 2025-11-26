@@ -39,12 +39,12 @@ Actualmente, el proyecto soporta las siguientes características a nivel de back
 - Eliminar productos (Eliminar)
 - Mostrar el total de productos registrados.
 
-###Componenentes de Servicio
+### Componenentes de Servicio
 - Modelo `Producto`: Define la entidad de la base de datos con atributos clave: `id`, `nombre`, `codigo`, `cantidad` y `precio`.
 - Repositorio `ProductoRepository`: Intefaz que extiene `JpaRepository` para la abstraccion de operaciones CRUD.
 - Servicio `ProductoService`: Contiene la lógica de negocio para interactuar con el repositorio (métodos para guardar, listar, obtener por ID y eliminar productos)
 
-##Ejecución
+## Ejecución
 Sigue estos pasos para poner en marcha el proyecto localmente:
 1. Clonar el repositorio
 ```bash
