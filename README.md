@@ -13,8 +13,6 @@ El sistema se construye sobre la siguiente pila tecnológica:
 - Spring Boot
 
 ### Frontend y Herramientas
-- Thymeleaf: Motor de plantillas para la capa de presentación.
-- Bootstrap: Framework de CSS para diseño responsivo.
 - Maven: Herramienta de gestión de dependencias y construcción de proyectos.
 
 ## Estructura del Proyecto
