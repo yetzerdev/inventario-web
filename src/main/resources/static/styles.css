@@ -1,0 +1,124 @@
+/* ================================
+   ESTILOS GENERALES
+================================ */
+body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background: #f3f4f6;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+/* ================================
+   TABLA
+================================ */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+thead {
+    background: #111827;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background: #f9fafb;
+}
+
+tr:hover {
+    background: #e5e7eb;
+}
+
+/* ================================
+   BOTONES
+================================ */
+button {
+    padding: 8px 12px;
+    margin-right: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover { opacity: 0.9; }
+
+button[type="submit"] {
+    background: #2563eb;
+    color: white;
+}
+
+button[type="button"] {
+    background: #6b7280;
+    color: white;
+}
+
+button:nth-child(1) {
+    background: #10b981;  /* Editar = verde */
+    color: white;
+}
+
+button:nth-child(2) {
+    background: #ef4444;  /* Eliminar = rojo */
+    color: white;
+}
+
+/* ================================
+   FORMULARIO
+================================ */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+    background: #f9fafb;
+    font-size: 14px;
+}
+
+input:focus {
+    border-color: #2563eb;
+    outline: none;
+    background: white;
+}
+
+/* ================================
+   CONTENEDOR PRINCIPAL
+================================ */
+.container {
+    max-width: 900px;
+    margin: auto;
+}
