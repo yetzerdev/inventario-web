@@ -122,3 +122,18 @@ input:focus {
     max-width: 900px;
     margin: auto;
 }
+
+/* ----- Estados visuales ----- */
+input.error,
+select.error,
+textarea.error {
+    border: 2px solid #e74c3c;
+    background-color: #fdecea;
+}
+
+input.success,
+select.success,
+textarea.success {
+    border: 2px solid #2ecc71;
+    background-color: #e8f8f2;
+}

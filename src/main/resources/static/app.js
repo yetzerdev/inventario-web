@@ -86,3 +86,19 @@ function limpiarFormulario() {
     document.getElementById("id").value = "";
     form.reset();
 }
+
+function validarCampo(input, condicion, mensajeErrorId) {
+    const errorMsg = document.getElementById(mensajeErrorId);
+
+    if (!condicion) {
+        input.classList.remove("success");
+        input.classList.add("error");
+        errorMsg.classList.add("active");
+        return false;
+    } else {
+        input.classList.remove("error");
+        input.classList.add("success");
+        errorMsg.classList.remove("active");
+        return true;
+    }
+}
