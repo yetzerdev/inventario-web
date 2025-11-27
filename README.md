@@ -1,15 +1,16 @@
 # Sistema de Inventario Web
 
 ## Descripción
-Sistema de inventario web fullstack usando Java + Spring Boot.  
-Actualmente se ha implementado:
-- Modelo `Producto` con atributos: id, nombre, código, cantidad, precio
-- Repositorio `ProductoRepository` para CRUD en base de datos H2
-- Servicio `ProductoService` con métodos para guardar, listar, obtener y eliminar productos
+Este proyecto es un sistema de inventario full-stack desarrollado con Java y Spring Boot. Su principal objetivo es permitir la gestión completa de productos mediante operaciones CRUD (Crear, Leer, Actualizar y Eliminar).
+
+El desarrollo se ha realizado como parte de las tareas prácticas de un curso, integrando tecnologías web modernas para una solución robusta y funcional.
 
 ## Tecnologías
-- Backend: Java 25, Spring Boot, H2 Database
-- Herramientas: GitHub, VS Code
+El sistema se construye sobre la siguiente pila tecnológica:
+
+### Backend y Base de datos
+- Java 25
+- Spring Boot
 
 ## Cómo ejecutar
 1. Abrir el proyecto en tu IDE
