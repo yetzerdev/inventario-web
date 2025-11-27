@@ -5,7 +5,7 @@ Este proyecto es un sistema de inventario full-stack desarrollado con Java y Spr
 
 El desarrollo se ha realizado como parte de las tareas prácticas de un curso, integrando tecnologías web modernas para una solución robusta y funcional.
 
-##✨ Novedades (Última Actualización)
+## ✨ Novedades (Última Actualización)
 El proyecto ha alcanzado una etapa de desarrollo clave con la implementación completa de la capa de presentación:
 - Frontend Creado: Se ha desarrollado una interfaz de usuario limpia y funcional utilizando HTML, Thymeleaf y JavaScript.
 - Interacción CRUD Completa: Los formularios y las vistas ahora permiten realizar todas las operaciones CRUD (Crear, Listar, Editar, Eliminar) directamente desde el navegador.
